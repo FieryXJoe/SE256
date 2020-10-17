@@ -12,8 +12,8 @@
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BreakingNewsContent" runat="server">
-    <div style="text-align:center">
-        <h2 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Breaking News:</h2>
+    <div class="newsContainer">
+        <h2 class="newsTitle">Breaking News:</h2>
         <p>
             After drowning in ASP.NET and bootstrap tutorials for many hours <br />
             this page looks different enough from the example to be considered my own work

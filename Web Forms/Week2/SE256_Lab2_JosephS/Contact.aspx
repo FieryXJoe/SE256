@@ -16,8 +16,8 @@
 </asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BreakingNewsContent" runat="server">
-    <div style="text-align:center">
-        <h2 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Latest Contact Me News:</h2>
+    <div class="newsContainer">
+        <h2 class="newsTitle">Latest Contact Me News:</h2>
         <p>
             Please Don't
         </p>

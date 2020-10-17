@@ -9,6 +9,6 @@
     <h2><%: Title %>.</h2>
     <h3>This is baby's first ASP.NET program</h3>
     <p>Specifications:</p>
-    <img src ="images/Capture.png" style="border:1px dashed black;"/>
+    <img src ="images/Capture.png" id="captureImg"/>
     <h3>It ain't much but its mine</h3>
 </asp:Content>

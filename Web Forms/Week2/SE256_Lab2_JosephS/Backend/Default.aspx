@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SE256_Activity2.Backend.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BreakingNewsContent" runat="server">
-    <h3 style="text-align:center;font-family:Impact">I'm not sure you should be here</h3>
+    <div class="newsContainer">
+        <h3 class="newsTitle">I'm not sure you should be here</h3>
+    </div>
 </asp:Content>
 
 

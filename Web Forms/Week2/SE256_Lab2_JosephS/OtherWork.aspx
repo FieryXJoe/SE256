@@ -2,12 +2,10 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BreakingNewsContent" runat="server">
-    <div style="text-align:center">
-        <h2 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Latest Git News:</h2>
-        <p>
-            <div style="text-decoration:line-through">I still haven't made a repository for this class</div>
-            I totally have now
-        </p>
+    <div class="newsContainer">
+        <h2 class="newsTitle">Latest Git News:</h2>
+        <p id = "gitPageStrikethroughP">I still haven't made a repository for this class</p>
+        <p>I totally have now</p>
     </div>
 </asp:Content>
 
@@ -16,7 +14,7 @@
     <div>
         <h2>My GitHub</h2>
         <a href="https://github.com/FieryXJoe?tab=repositories">
-            <img src="images/github.jpg" style="width:300px;height:225px;border:5px inset purple;border-radius:50px;" />
+            <img src="images/github.jpg" id="gitImg" />
         </a>
     </div>
 </asp:Content>

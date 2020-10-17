@@ -14,7 +14,8 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <!--Had a lot of trouble doing this, figured out I needed to use ctrl+f5 to hard refresh page and update css file-->
+    <link href="Content/Site.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -60,7 +61,7 @@
             </div>
         </div>
         <div class="container body-content">
-            <div style="background-color:lightblue; padding:10px; border:4px inset navy; border-radius:35px;" class ="jumbotron" id="newsContainer">
+            <div class ="jumbotron" id="newsContainer">
                 <asp:ContentPlaceHolder ID="BreakingNewsContent" runat="server">
 
                 </asp:ContentPlaceHolder>
