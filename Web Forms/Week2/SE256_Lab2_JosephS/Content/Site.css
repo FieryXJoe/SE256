@@ -18,19 +18,22 @@ select,
 textarea {
     max-width: 280px;
 }
-
-#newsContainer {
+/*This is the css for the element containing the news headlines and text,
+    the more advanced css prevents this element automatically not displaying
+    if it has no contents, therefore use JS to hide it on those select pages.
+*/
+#news {
     background-color: lightblue;
     padding: 10px;
     border: 4px inset navy;
     border-radius: 35px;
 }
-
+/*The image of the assignment requirements*/
 #captureImg 
 {
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
-
+/*Github clickable image*/
 #gitImg 
 {
     width: 300px;
@@ -38,17 +41,17 @@ textarea {
     border: 5px inset purple;
     border-radius: 50px;
 }
-
+/*Found myself giving multiple pieces of text this font so made a class*/
 .newsTitle 
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+/*Centers the headline and body in the container*/
 .newsContainer
 {
     text-align:center;
 }
-
+/*little joke line with a strikethrough I kept, got its own ID when moved to external css*/
 #gitPageStrikethroughP
 {
     text-decoration: line-through

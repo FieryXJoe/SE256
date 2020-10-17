@@ -13,7 +13,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div>
         <h2>My GitHub</h2>
-        <a href="https://github.com/FieryXJoe?tab=repositories">
+        <a href="https://github.com/FieryXJoe?tab=repositories" target ="_blank">
             <img src="images/github.jpg" id="gitImg" />
         </a>
     </div>

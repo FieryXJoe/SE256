@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="BreakingNewsContent" runat="server">
     <%-- Gonna go out on a limb and assume this isnt the proper way to do this in ASP.NET but it works --%>
-    <script>document.querySelector("#newsContainer").style.visibility = "hidden"</script>
+    <script>document.querySelector("#news").style.visibility = "hidden"</script>
 </asp:Content>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">

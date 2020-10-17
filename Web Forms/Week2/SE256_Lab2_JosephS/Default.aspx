@@ -15,8 +15,8 @@
     <div class="newsContainer">
         <h2 class="newsTitle">Breaking News:</h2>
         <p>
-            After drowning in ASP.NET and bootstrap tutorials for many hours <br />
-            this page looks different enough from the example to be considered my own work
+            After drowning in ASP.NET and bootstrap tutorials/documentation for many hours <br />
+            Joe's page looks different enough from the example to be considered his own work
         </p>
     </div>
 </asp:Content>

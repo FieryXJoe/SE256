@@ -48,7 +48,7 @@
                     </button>
                     <%-- Originally had this link to my bit but made that its own page and decided to change to this to give me
                         An easy way to get to canvas while working.--%>
-                    <a class="navbar-brand" runat="server" href="https://neit.instructure.com/courses/46141/modules">SE 256</a>
+                    <a class="navbar-brand" runat="server" href="https://neit.instructure.com/courses/46141/modules" target ="_blank">SE 256</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="container body-content">
-            <div class ="jumbotron" id="newsContainer">
+            <div class ="jumbotron" id="news">
                 <asp:ContentPlaceHolder ID="BreakingNewsContent" runat="server">
 
                 </asp:ContentPlaceHolder>
