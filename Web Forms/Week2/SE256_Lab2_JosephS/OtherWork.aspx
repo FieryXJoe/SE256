@@ -5,7 +5,8 @@
     <div style="text-align:center">
         <h2 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Latest Git News:</h2>
         <p>
-            I still haven't made a repository for this class
+            <div style="text-decoration:line-through">I still haven't made a repository for this class</div>
+            I totally have now
         </p>
     </div>
 </asp:Content>
